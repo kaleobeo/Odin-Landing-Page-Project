@@ -1,0 +1,89 @@
+* {
+    font-family: "Roboto", Helvetica, serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header,
+.container-1 {
+    background-color: #1F2937;
+}
+
+.hero-secondary, li {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 96px;
+    gap: 16px;
+    align-items: baseline;
+}
+
+#hero-left p {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 32px;
+}
+
+.container-1 {
+    display:flex;
+    height: 300px;
+    width: auto;
+    align-items: center;
+    padding-bottom: 96px;
+}
+
+.img-placeholder {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 32px;
+    padding: 36px;
+    height: 150px;
+    width: 600px;
+   
+}
+
+#hero-left {
+    margin-left: 32px;
+
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight:bolder;
+
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin-top: 32px;
+    width: 120px;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
